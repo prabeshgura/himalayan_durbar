@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --color-white: #ffffff;
+  --color-gold: #ffc300;
+  --color-gold-secondary: #c99808;
+  --color-cream: #f1e3a3;
+  --color-ink: #1a1a1a;
+  --color-background: var(--color-white);
+  --color-foreground: var(--color-ink);
+}
+
+@theme inline {
+  --color-white: var(--color-white);
+  --color-gold: var(--color-gold);
+  --color-gold-secondary: var(--color-gold-secondary);
+  --color-cream: var(--color-cream);
+  --color-ink: var(--color-ink);
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-monte-carlo);
+}
+
+html,
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .caret-blink::after {
+    content: "";
+    display: inline-block;
+    width: 0.06em;
+    height: 1em;
+    margin-left: 0.08em;
+    vertical-align: -0.12em;
+    background: currentColor;
+    animation: caret-blink 0.9s steps(1) infinite;
+  }
+}
+
+@keyframes caret-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.features-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.features-scroll::-webkit-scrollbar {
+  display: none;
+}
