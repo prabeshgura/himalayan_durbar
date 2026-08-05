@@ -61,6 +61,7 @@ export default function ContactSection() {
                   src={member.image}
                   alt={member.name}
                   fill
+                  unoptimized
                   className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
                 />
@@ -125,7 +126,7 @@ export default function ContactSection() {
                       <ExternalLink className="h-3.5 w-3.5 text-gold-secondary" />
                     </h4>
                     <p className="text-xs text-ink/75 mt-0.5 font-medium group-hover:underline">Himalayan Durbar Banquet & Events</p>
-                    <p className="text-xs text-ink/60">Kathmandu / Nepal (Click to open map)</p>
+                    <p className="text-xs text-ink/60">Hetauda / Nepal (Click to open map)</p>
                   </div>
                 </a>
 
