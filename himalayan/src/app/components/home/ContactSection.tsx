@@ -83,10 +83,6 @@ export default function ContactSection() {
                 <p className="text-xs leading-relaxed text-ink/80 sm:text-sm">
                   {member.bio}
                 </p>
-                <div className="mt-6 flex items-center justify-between border-t border-ink/10 pt-4 text-xs font-medium uppercase tracking-wider text-gold-secondary">
-                  <span>Himalayan Durbar</span>
-                  <span className="text-xs font-semibold">{member.role}</span>
-                </div>
               </div>
             </div>
           ))}
