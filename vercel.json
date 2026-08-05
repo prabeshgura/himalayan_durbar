@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd himalayan && npm run build",
+  "outputDirectory": "himalayan/.next",
+  "installCommand": "cd himalayan && npm install"
+}
