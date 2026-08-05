@@ -2,6 +2,9 @@ import Hero from "./components/home/Hero";
 import EventsSection from "./components/home/EventsSection";
 import FeaturesSection from "./components/home/FeaturesSection";
 import ChainsSection from "./components/home/ChainsSection";
+import MenuSection from "./components/home/MenuSection";
+import ContactSection from "./components/home/ContactSection";
+import Footer from "./components/layout/Footer";
 
 export default function Home() {
   return (
@@ -10,10 +13,11 @@ export default function Home() {
         <Hero />
       </div>
       <EventsSection />
-      <div className="relative -mt-[50vh] sm:-mt-[70vh]">
-        <FeaturesSection />
-      </div>
+      <FeaturesSection />
       <ChainsSection />
+      <MenuSection />
+      <ContactSection />
+      <Footer />
     </main>
   );
 }
