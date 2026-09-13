@@ -133,6 +133,8 @@ export default function ContactSection() {
                   <div>
                     <h4 className="font-semibold text-ink text-sm">Direct Phone & WhatsApp</h4>
                     <p className="text-xs text-ink/75 mt-0.5 font-medium">
+                      <a href="tel:+9779865011220" className="hover:text-gold-secondary hover:underline">+977 986-5011220</a>
+                      {" / "}
                       <a href="tel:+9779851142423" className="hover:text-gold-secondary hover:underline">+977 985-1142423</a>
                       {" / "}
                       <a href="tel:+9779845638119" className="hover:text-gold-secondary hover:underline">+977 984-5638119</a>
