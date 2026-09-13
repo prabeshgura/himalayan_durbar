@@ -8,18 +8,18 @@ export type TeamMember = {
 
 export const TEAM_MEMBERS: TeamMember[] = [
   {
-    id: "kamal-adhikari",
-    name: "Kamal Adhikari",
-    role: "Chairperson",
-    image: "/Kamal_Adhikari.png",
-    bio: "Passionate visionary dedicated to bringing royal hospitality and unforgettable dining experiences to life at Himalayan Durbar.",
-  },
-  {
     id: "surya-lal-bhandari",
     name: "Surya Lal Bhandari",
-    role: "Managing Director",
+    role: "Owner",
     image: "/Surya_Lal_Bhandari.png",
-    bio: "Managing Director leading strategic vision, ensuring luxury standards and operational excellence across every event.",
+    bio: "Co-founder leading strategic vision, ensuring luxury standards and operational excellence across every event.",
+  },
+  {
+    id: "kamal-adhikari",
+    name: "Kamal Adhikari",
+    role: "Owner",
+    image: "/Kamal_Adhikari.png",
+    bio: "Passionate visionary dedicated to bringing royal hospitality and unforgettable dining experiences to life at Himalayan Durbar.",
   },
   {
     id: "dipak-sapkota",
